@@ -12,7 +12,7 @@ class App extends Component{
       <BrowserRouter>
         <div className="App">
           <Navbar/>
-          <Route path='/' component={Home}></Route>
+          <Route path='/home' component={Home}></Route>
           <Route path='/about' component={About}></Route>
           <Route path='/contact' component={Contact}></Route>
         </div>
